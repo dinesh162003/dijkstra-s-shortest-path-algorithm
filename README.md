@@ -243,6 +243,8 @@ path_states(goal_state_path)
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 
 ```
+
+
 ## OUTPUT:
 ![image](https://user-images.githubusercontent.com/75235159/167686462-069ed9f8-a61c-41b3-9320-0528e43ef02e.png)
 ![image](https://user-images.githubusercontent.com/75235159/167686505-4aac0996-80f5-4f16-aeb1-c891d71604ac.png)
@@ -250,6 +252,8 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ![image](https://user-images.githubusercontent.com/75235159/167686601-5564d1fd-dbdf-463d-8ac1-16d51ac0e209.png)
 ![image](https://user-images.githubusercontent.com/75235159/167686644-451a0f85-9fc7-4ae4-9964-de1920fa8cfa.png)
 ![image](https://user-images.githubusercontent.com/75235159/167686698-2c95be86-69ee-4da2-8f3d-9f6061f0d74d.png)
+
+
 
 ## Justification:
 In best-first search algorithm, the selected node is verified as parent node or not and starts its search, within the least distance it will be reaching the goal node. Search near every two nodes are always considered with its shortest distance.
